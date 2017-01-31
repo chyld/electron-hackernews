@@ -4,7 +4,7 @@ module.exports = {
   target: 'electron',
   entry: './src/client/index.js',
   output: {
-    filename: 'client.js',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'out/client')
   },
   module: {
